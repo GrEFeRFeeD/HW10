@@ -1,3 +1,5 @@
+# Console output
+
 Task 1:<br>
 File "task1_phones.txt":<br>
 &emsp;987-123-4567<br>
