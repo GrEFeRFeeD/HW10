@@ -1,9 +1,7 @@
 import exceptions.FileNotReachableException;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
@@ -27,8 +25,8 @@ public class Main {
         //Task2
         System.out.println("\nTask 2:");
         printFile(new File("task2_users.txt"));
-        List<User> users = User.UserReader.getUsersFromFile("task2_users.txt");
-        File file = User.UserJSONWriter.writeToFile(users);
+        List<User> users = UserReader.getUsersFromFile("task2_users.txt");
+        File file = UserJSONWriter.writeToFile(users);
         printFile(file);
 
         //Task3
